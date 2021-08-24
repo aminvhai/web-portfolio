@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+section{
+    margin-bottom:100px;
+    height: 500px;
+}
+h1{
+    font-size: 40px;
+}
+.name{
+    color:goldenrod;
+}
+.half{
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 3%;
+    padding-left: 2%;
+    
+}
+.half img{
+    width:100%;
+}
+.banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+
+}
+p{
+    color:dimgray;
+}
+.dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.fb{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightgreen,rgb(214, 126, 12));
+    padding:10px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+.orange{
+    color:orange;
+}
+.exp{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.single{
+    box-shadow: 10px 10px 40px black;
+    border-radius: 5px;
+    height:45%;
+    margin-right: 30px;
+    background-color: white;
+}
+#full{
+    border-left: 10px solid;
+    border-image: linear-gradient(tomato,lightsalmon);
+    border-image-slice: 1;
+}
+#junior{
+    border-left:10px solid;
+    border-image: linear-gradient(blue,lightblue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 10px;
+}
